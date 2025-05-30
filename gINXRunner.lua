@@ -3,3 +3,5 @@ if isfile("Ginx.lua") then
 end
 local contents = game:HttpGet("https://raw.githubusercontent.com/Nythblox/gINX/refs/heads/main/script.lua", true)
 writefile("Ginx.lua", contents)
+loadfile("Ginx.lua")
+print("Fixed")
